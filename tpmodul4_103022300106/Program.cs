@@ -8,5 +8,9 @@ class Program
         Console.WriteLine("Kode Pos Batununggal: " + KodePos.GetKodePos("Batununggal"));
         Console.WriteLine("Kode Pos Cijaura: " + KodePos.GetKodePos("Cijaura"));
 
+        Console.WriteLine("\nState-Based Construction:");
+        DoorMachine door = new DoorMachine();
+        door.BukaPintu();
+        door.KunciPintu();
     }
 }
